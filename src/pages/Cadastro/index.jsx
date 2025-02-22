@@ -35,7 +35,7 @@ function Cadastro() {
             <input ref={passwordRef} type="password" placeholder="Senha" className="w-full bg-transparent border border-purple-900 py-2 px-7 rounded-md focus:outline-none"/>
             <button className="w-full bg-purple-900 text-fuchsia-200 py-2 px-4 rounded-md hover:bg-purple-950 mt-6">Cadastrar</button>
         </form>
-        <Link to="/login" className="text-purple-900 font-medium mt-5 block hover:text-purple-950">Já tem uma conta? Faça login</Link>
+        <Link to="/cadastro_login_react/login" className="text-purple-900 font-medium mt-5 block hover:text-purple-950">Já tem uma conta? Faça login</Link>
     </div>
   );
 }
