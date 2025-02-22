@@ -6,8 +6,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Cadastro/>}/>
-        <Route path="/login" element={<Login/>}/>
+        <Route path="/cadastro_login_react" element={<Cadastro/>}/>
+        <Route path="/cadastro_login_react/login" element={<Login/>}/>
       </Routes>
     </BrowserRouter>
   );
